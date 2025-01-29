@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilotic Language Translator</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Language Translator</h1>
+        <textarea id="inputText" placeholder="Enter text to translate"></textarea>
+
+        <label for="sourceLang">Source Language:</label>
+        <select id="sourceLang">
+            <option value="en">English</option>
+            <option value="ate">Ateso</option>
+            <option value="tur">Turkana</option>
+            <option value="kar">Karamojo</option>
+            <option value="far">Farsi</option>
+            <option value="fr">French</option>
+            <option value="lug">Luganda</option>
+            <option value="sis">Siswati</option>
+            <option value="lus">Lusoga</option>
+            <option value="es">Spanish</option>
+            <option value="swa">Swahili</option>
+            <option value="run">Runyankore</option>
+            <option value="amh">Amharic</option>
+            <option value="oro">Oromo</option>
+            <option value="zul">Zulu</option>
+
+
+        </select>
+
+        <label for="targetLang">Target Language:</label>
+        <select id="targetLang">
+            <option value="ate">Ateso</option>
+            <option value="tur">Turkana</option>
+            <option value="kar">Karamojo</option>
+            <option value="far">Farsi</option>
+            <option value="en">English</option>
+        </select>
+
+        <button id="translateButton">Translate</button>
+
+        <!-- Translated text output placed below button -->
+        <h2>Translated Text:</h2>
+        <div id="outputText">Translation will appear here...</div>
+    </div>
+
+    <script src="app.js"></script> <!-- Link to the external JS -->
+</body>
+</html>
